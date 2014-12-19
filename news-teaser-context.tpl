@@ -7,6 +7,6 @@
 {{ else }}
 	{{ assign var="imageRendition" value="square" }}
 {{ /if }}
-{{ include file="_snippets/news-teaser.tpl" imageRendition="{{ $imageRendition }}" }}       
+{{ include file="_snippets/news-teaser.tpl" imageRendition=$imageRendition }}       
 {{ /list_playlist_articles }}
 {{/block}}
