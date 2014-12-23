@@ -19,6 +19,10 @@
 		{{block snippet_video_embed}}{{/block}}	
 		
 		{{block snippet_html_slider}}{{/block}}	
+		
+		{{block snippet_article_comments}}{{/block}}
+		
+		{{block snippet_article_comment_form}}{{/block}}
 
 		</div><!-- /.col-md-6 -->
 		

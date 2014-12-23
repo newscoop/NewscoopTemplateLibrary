@@ -11,11 +11,16 @@
         <p class="lead">Examples and best practices to help you get familiar with Newscoop templating language and the power of $gimme</p>
       </div>
 
+	  {{ list_sections }}
+	  <div class="col-md-3">
+	  <h3>{{ $gimme->section->name }}</h3>
 	  <ul>
-	  {{ list_articles ignore_section="true" constraints="type is entry" }}
+	  {{ list_articles constraints="type is entry" }}
 	  	<li><a href="{{ url options="article" }}">{{ $gimme->article->name }}</a></li>
 	  {{ /list_articles }}
 	  </ul>
+	  </div>
+	  {{ /list_sections }}
 
     </div><!-- /.container -->
 
