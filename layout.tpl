@@ -12,7 +12,8 @@
 			{{ $gimme->article->description }}
 		</div>
 	 
-		<div class="col-md-6">  	
+		<div class="col-md-6"> 
+		<h3>Generated output</h3> 	
 
 		{{block snippet_news_teaser}}{{/block}}		
 		
@@ -23,10 +24,15 @@
 		{{block snippet_article_comments}}{{/block}}
 		
 		{{block snippet_article_comment_form}}{{/block}}
+		
+		{{block most_commented_articles}}{{/block}}
+		
+		{{block snippet_endless_scrolling}}{{/block}}
 
 		</div><!-- /.col-md-6 -->
 		
 		<div class="col-md-6">
+			<h3>Template code</h3>
 
 			{{ $gimme->article->gist }}
 	
