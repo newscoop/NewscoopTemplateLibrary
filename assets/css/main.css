@@ -22,3 +22,16 @@ figure.thumb figcaption {
 h2 {
 	margin-top: 0;
 }
+
+/* endless scroll button */
+div.seemore a {
+	width: 150px;
+	height: 50px;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+	background-color: #333;
+	font-weight: bold;
+	display: block;
+	margin: 10px auto;
+}
