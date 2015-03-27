@@ -28,6 +28,8 @@
 		{{block most_commented_articles}}{{/block}}
 		
 		{{block snippet_endless_scrolling}}{{/block}}
+		
+		{{block snippet_profile_page}}{{/block}}
 
 		</div><!-- /.col-md-6 -->
 		
