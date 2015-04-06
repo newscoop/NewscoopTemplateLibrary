@@ -51,4 +51,4 @@ for top positioned news, and 'square' for all other news *}}
 	{{ /list_related_articles }}                
                 
        	</div>
-</section><!-- /#topstory -->     
+</section>   
