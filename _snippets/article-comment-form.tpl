@@ -1,5 +1,3 @@
-{{dynamic}}
-
 {{ if !$gimme->publication->public_comments }}
     <!-- public comments are not allowed-->
     {{ if $gimme->user->logged_in }}
@@ -117,4 +115,3 @@
         {{ /if }}
     {{ /if }}
 {{ /if }}
-{{/dynamic}}
