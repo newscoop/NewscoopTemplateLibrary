@@ -27,6 +27,8 @@
 		
 		{{block most_commented_articles}}{{/block}}
 		
+		{{block most_popular_articles}}{{/block}}
+		
 		{{block snippet_endless_scrolling}}{{/block}}
 
 		{{block snippet_associative_arrays}}{{/block}}
