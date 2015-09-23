@@ -34,6 +34,8 @@
 		{{block snippet_associative_arrays}}{{/block}}
 		
 		{{block snippet_profile_page}}{{/block}}
+		
+		{{block snippet_capture_rendition}}{{ /block }}
 
 		</div><!-- /.col-md-6 -->
 		
