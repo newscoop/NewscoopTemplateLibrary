@@ -35,7 +35,9 @@
 		
 		{{block snippet_profile_page}}{{/block}}
 		
-		{{block snippet_capture_rendition}}{{ /block }}
+		{{block snippet_capture_rendition}}{{/block}}
+
+		{{block snippet_article_map}}{{/block}}
 
 		</div><!-- /.col-md-6 -->
 		
